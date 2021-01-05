@@ -1,0 +1,112 @@
+/*TAGS*/
+
+
+html{
+    height: 100%;  
+    overflow: hidden;
+}
+body{
+    margin: 0;
+    min-height: 100%;
+    background-image: linear-gradient(180deg, #def2f0, white);
+}
+h1{
+    line-height: 1.5;
+    margin: 30px auto 0;
+    text-align: center;
+    font-family: 'Leckerli One', cursive;
+    font-size: 4rem;
+    color: #2a3439;
+    text-decoration: underline; 
+    text-decoration-style:dotted;
+    text-decoration-color: palevioletred;
+
+}
+p{
+    margin: 20px auto;
+    font-family: 'Lora', serif;
+    color: #2a3439;
+}
+button{
+    font-weight: bolder;
+    letter-spacing: 2px;
+    line-height: 3;
+    color: #2a3439;
+    background-image: linear-gradient(180deg, pink, #e08f9b);
+    border: 2px solid palevioletred;
+    font-family: 'Lora', serif;
+    border-radius: 10px;
+    margin: 5% 45%;
+    width: 10rem;
+    min-width: 10rem;
+}
+button:hover{
+    cursor: pointer;
+    opacity: 85%;
+}
+i{
+    color: pink;
+    margin: 35px 45px;
+}
+
+
+/*CLASSES*/
+
+.dice{
+    border-radius: 10%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: radial-gradient(palevioletred,#d1537b, #c43e69);
+    width: 150px;
+    height: 150px;
+}
+.dot{
+    width: 30px;
+    height: 30px;
+    background-color:pink;
+    border-radius: 50%;
+    margin: 10px;
+    visibility: hidden;
+}
+.dotTwo{
+    width: 30px;
+    height: 30px;
+    background-color:pink;
+    border-radius: 50%;
+    margin: 10px;
+    visibility: hidden;
+}
+.empty{
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+    visibility: hidden;
+}
+
+
+/*CONTAINERS*/
+.textContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.containerDicePanel{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.containerDicePanel:first-child{
+    margin-right: 20px;
+}
+.containerDicePanel:last-child{
+    margin-left: 20px;
+}
